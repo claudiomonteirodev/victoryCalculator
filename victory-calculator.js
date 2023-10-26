@@ -35,3 +35,6 @@ let result = victoryCalculator(win, defeat);
 masteryCurrent = getMastery(result);
 
 console.log(`Você tem: ${result} Vitórias e sua Maestria atual é: ${masteryCurrent}`);
+
+
+// Primeiro, é criada a função `victoryCalculator`, que recebe as variáveis `win` (vitória) e `defeat` (derrota) e calcula a diferença entre elas. Em seguida, é criada a função `getMastery`, que recebe o resultado da função `victoryCalculator` e percorre a matriz `mastery` usando um loop `for`. Se o parâmetro recebido estiver dentro do intervalo definido no índice `i` da matriz, a função retorna o valor correspondente.
